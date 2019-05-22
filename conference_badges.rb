@@ -41,7 +41,7 @@ def printer(attendees)
 
   attendees.each do |person|
     assignment = assignments[counter]
-    puts "tuba"
+    puts assignments[counter]
     counter = counter + 1
   end
 
