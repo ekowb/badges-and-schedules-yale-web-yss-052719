@@ -28,7 +28,7 @@ def assign_rooms(speakers)
   return asmts
 end
 
-def printer
-  puts batch_badge_creator(list)
-  puts assign_rooms(speakers)
+def printer(attendees)
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
 end
