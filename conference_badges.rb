@@ -10,6 +10,7 @@ def batch_badge_creator(list)
   list.each do |badge|
     item = badge_maker(badge)
     new_list[counter] = item
+    counter = counter + 1
   end
   return new_list
 end
