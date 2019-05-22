@@ -29,7 +29,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  counter = 0
+  counter = 1
   badges = batch_badge_creator(attendees)
   assignments = assign_rooms(attendees)
   attendees.each do |person|
