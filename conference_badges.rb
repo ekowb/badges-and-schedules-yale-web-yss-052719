@@ -40,7 +40,7 @@ def printer(attendees)
 
   attendees.each do |person|
     assignment = assignments[person]
-    puts "{assignment}"
+    puts "#{assignment}"
   end
   return badges
   return attendees
