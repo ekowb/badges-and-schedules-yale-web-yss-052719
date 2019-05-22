@@ -1,7 +1,7 @@
 # Write your code here.
 
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+  return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(list)
@@ -22,7 +22,7 @@ def assign_rooms(speakers)
   asmts = []
   speakers.each do |person|
     assign = rooms[counter]
-    asmts[counter] = "Hello #{person}! You'll be assigned to room #{assign}!"
+    asmts[counter] = "Hello, #{person}! You'll be assigned to room #{assign}!"
     counter = counter + 1
   end
   return asmts
