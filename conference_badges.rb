@@ -12,7 +12,7 @@ def batch_badge_creator(list)
     new_list[badge] = item
   end
   return lis
-  
+
 
 def assign_rooms(speakers)
   rooms = [*1..7]
