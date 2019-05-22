@@ -26,3 +26,4 @@ def assign_rooms(speakers)
     counter = counter + 1
   end
   return asmts
+end
