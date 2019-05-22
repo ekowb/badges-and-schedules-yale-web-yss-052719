@@ -5,6 +5,14 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(list)
+  list.each do |badge|
+    counter = 0
+    new_list = []
+    item = badge_maker(badge)
+    new_list[badge] = item
+  end
+  return lis
+  
 
 def assign_rooms(speakers)
   rooms = [*1..7]
