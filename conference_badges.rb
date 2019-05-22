@@ -35,7 +35,7 @@ def printer(attendees)
 
   attendees.each do |person|
     badge = badges[counter]
-    puts badges
+    puts badges[counter]
     counter = counter + 1
   end
 
