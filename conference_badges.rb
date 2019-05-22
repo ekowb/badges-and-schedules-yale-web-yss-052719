@@ -9,7 +9,7 @@ def batch_badge_creator(list)
     counter = 0
     new_list = []
     item = badge_maker(badge)
-    new_list[badge] = item
+    new_list[counter] = item
   end
   return lis
 
