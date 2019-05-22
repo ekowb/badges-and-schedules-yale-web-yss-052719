@@ -21,4 +21,3 @@ def assign_rooms(speakers)
   asmts = []
   speakers.each do |person|
     assign = rand(rooms)
-    
