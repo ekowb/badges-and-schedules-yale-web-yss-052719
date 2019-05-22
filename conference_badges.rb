@@ -17,7 +17,7 @@ end
 
 
 def assign_rooms(speakers)
-  counter = 1
+  counter = 0
   rooms = [*1..7]
   asmts = []
   speakers.each do |person|
