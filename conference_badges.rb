@@ -42,5 +42,6 @@ def printer(attendees)
     puts "#{asnmt}"
     counter = counter + 1
   end
-  return att
+  return badges
+  return assignments
 end
