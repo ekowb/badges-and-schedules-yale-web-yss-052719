@@ -20,4 +20,3 @@ def assign_rooms(speakers)
   speakers.each do |person|
     room_list = []
     counter = 0
-    
