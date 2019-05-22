@@ -21,7 +21,8 @@ def assign_rooms(speakers)
   rooms = [*1..7]
   asmts = []
   speakers.each do |person|
-    assign = rand(rooms)
+    assign = rooms[counter]
     asmts[counter] = "Hello #{person}! You'll be assigned to room #{assign}!"
+    counter = counter + 1
   end
   return asmts
