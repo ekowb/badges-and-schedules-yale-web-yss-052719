@@ -33,11 +33,13 @@ def printer(attendees)
   badges = batch_badge_creator(attendees)
   assignments = assign_rooms(attendees)
   attendees.each do |person|
-    puts "#{badges[counter]}"
+    badge = badges[counter]
+    puts "#{badge}"
     counter = counter + 1
   end
   attendees.each do |person|
-    puts "#{}{assignments[counter]}"
+    assignment = assignment[counter]
+    puts "#{assignment}"
     counter = counter + 1
   end
   return badges
