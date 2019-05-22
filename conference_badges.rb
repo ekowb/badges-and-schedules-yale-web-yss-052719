@@ -39,8 +39,7 @@ def printer(attendees)
   end
 
   assignments.each do |asnmt|
-    assignment = assignments[counter]
-    puts assignments[counter]
+    puts "#{asnmt}"
     counter = counter + 1
   end
   return att
