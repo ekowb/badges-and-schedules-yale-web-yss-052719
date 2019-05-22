@@ -44,5 +44,5 @@ def printer(attendees)
     puts assignments[counter]
     counter = counter + 1
   end
-
+  return attendees
 end
