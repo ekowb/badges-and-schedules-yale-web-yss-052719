@@ -11,7 +11,7 @@ def batch_badge_creator(list)
     item = badge_maker(badge)
     new_list[counter] = item
   end
-  return lis
+  return new_list
 
 
 def assign_rooms(speakers)
