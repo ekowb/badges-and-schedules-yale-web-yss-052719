@@ -16,7 +16,6 @@ end
 
 
 def assign_rooms(speakers)
+  counter = 0
   rooms = [*1..7]
   speakers.each do |person|
-    room_list = []
-    counter = 0
