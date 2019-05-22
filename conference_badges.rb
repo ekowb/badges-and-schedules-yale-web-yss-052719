@@ -45,6 +45,4 @@ def printer(attendees)
     counter = counter + 1
   end
 
-  return badges
-  return assignments
 end
